@@ -47,8 +47,27 @@
 
 		/* STEP 8: Add an event handler that listens for the onload event of the JSON file/object */
 		
+		//request.addEventListener('load', () => {
+
+
+		//})
+
+		request.onload = function(){
+			const iScreamInc = request.response;
+			console.log(iScreamInc);
+			populateHeader(iScreamInc);
+			topFlavors(iScreamInc);
+		}
 
 		/* STEP 9: Build out the populateHeader() function */
+		function populateHeader(jsonObj){
+			const headerH1 = document.createElement("H1");
+			headerH1.textContent = jsonObj["companyName"]; //jsonObj.companyName
+			header.appendChild(headerH1);
+			const headerPara = document.createElement("p");
+			headerPara.textContent = "Head Office: " + jsonObj["headOffice"] + ", Established: " + jsonObj["established"];
+			header.appendChild(headerPara);
+		}
 
 		/* STEP 10a: Assemble the showTopFlavors() function */
 
