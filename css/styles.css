@@ -27,8 +27,8 @@ header p {
 
 /* section styles */
 section {
-	display: inline-block;
-	padding: 10px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1f;
 }
 section article {
 	border: 1px solid black;
