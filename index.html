@@ -98,6 +98,7 @@
 				const ingredients = topFlavors[i].ingredients;
 				for (let j = 0; j < ingredients.length; j++){
 					const listItem = document.createElement("li");
+					listItem.textContent = ingredients[j];
 					list.appendChild(listItem);
 				}
 
