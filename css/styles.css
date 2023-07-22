@@ -38,6 +38,13 @@ section article {
 	padding: 10px;
 	width: 80%;
 }
+
+@media only screen and (max-width: 600px) {
+	section {
+	  grid-template-columns: auto auto;
+	}
+  }
+
 article img {
 	display: block;
 	height: 150px;
