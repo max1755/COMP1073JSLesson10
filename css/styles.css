@@ -50,12 +50,6 @@ section article {
 	}
   }
 
-  @media only screen and (max-width: 600px) {
-	section {
-	  grid-template-columns: auto;
-	}
-  }
-
 article img {
 	display: block;
 	height: 50%;
