@@ -31,6 +31,7 @@ section {
 	grid-template-columns: auto auto auto;
 	column-gap: 10px;
 	row-gap: 10px;
+	padding: 10px;
 }
 section article {
 	border: 1px solid black;
@@ -38,21 +39,6 @@ section article {
 	padding: 10px;
 	width: 90%;
 }
-
-@media screen and (max-width: 768px) {
-	section {
-		display: grid;
-		grid-template-columns: auto auto;
-		column-gap: 5px;
-		row-gap: 5px;
-	}
-	section article {
-		border: 1px solid black;
-		box-shadow: 0 1px 7px grey;
-		padding: 5px;
-		width: 90%;
-	}
-  }
 
 article img {
 	display: block;
