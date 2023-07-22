@@ -41,8 +41,8 @@ section article {
 
 article img {
 	display: block;
-	height: 25%;
-	width: 25%;
+	height: auto;
+	max-width: 25%;
 }
 section p {
   margin: 5px 0;
