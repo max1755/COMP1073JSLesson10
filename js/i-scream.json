@@ -38,24 +38,24 @@
       "image": "strawberry-sprinkle.svg"
     },
     {
-      "name": "Stupendous Strawberry",
-      "calories": 425,
+      "name": "Candy Lime",
+      "calories": 600,
       "type": "ice cream",
       "ingredients": [
-        "wild strawberries",
-        "milk chocolate dip",
-        "candy sprinkles"
+        "smarties",
+        "lime extract",
+        "candy coating"
       ],
       "image": "ice-cream-xtra1.svg"
     },
     {
-      "name": "Stupendous Strawberry",
-      "calories": 425,
+      "name": "Vanilla Chocolate Chip",
+      "calories": 375,
       "type": "ice cream",
       "ingredients": [
-        "wild strawberries",
-        "milk chocolate dip",
-        "candy sprinkles"
+        "chocolate chips",
+        "vanilla chocolate mix",
+        "vanilla extract"
       ],
       "image": "ice-cream-xtra2.svg"
     }
