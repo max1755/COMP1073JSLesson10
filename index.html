@@ -95,11 +95,22 @@
 				p2.textContent = topFlavors[i].type;
 
 				// STEP 10f: Build a loop for the ingredients array in the JSON
-
+				const ingredients = topFlavors[i].ingredients;
+				for (let j = 0; j < ingredients.lenght; j++){
+					const listItem = document.createElement("li");
+					list.appendChild(listItem);
+				}
 
 				// STEP 10g: Append each of the above HTML elements to the ARTICLE element
 
 				// STEP 10h: Append each complete ARTICLE element to the SECTION element
+
+				article.appendChild(img);
+				article.appendChild(h2);
+				article.appendChild(p1);
+				article.appendChild(p2);
+				article.appendChild(list);
+				section.appendChild(article);
 
 			}
 		}
