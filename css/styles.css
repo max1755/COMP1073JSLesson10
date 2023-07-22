@@ -36,8 +36,23 @@ section article {
 	border: 1px solid black;
 	box-shadow: 0 2px 14px grey;
 	padding: 10px;
-	width: 90%;
+	width: 30vw;
 }
+
+@media only screen and (max-width: 768px) {
+	section {
+		display: grid;
+		grid-template-columns: auto auto;
+		column-gap: 5px;
+		row-gap: 5px;
+	}
+	section article {
+		border: 1px solid black;
+		box-shadow: 0 1px 7px grey;
+		padding: 5px;
+		width: 45vw;
+	}
+  }
 
 article img {
 	display: block;
