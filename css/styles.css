@@ -26,6 +26,7 @@ header p {
 section {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
+	row-gap: 10px;
 }
 section article {
 	border: 1px solid black;
@@ -36,7 +37,7 @@ section article {
 article img {
 	display: block;
 	height: auto;
-	max-width: 90%;
+	max-width: 25%;
 }
 section p {
   margin: 5px 0;
