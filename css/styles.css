@@ -28,7 +28,7 @@ header p {
 /* section styles */
 section {
 	display: grid;
-	grid-template-columns: auto auto auto;
+	grid-template-columns: 1fr 1fr 1fr;
 }
 section article {
 	border: 1px solid black;
@@ -39,7 +39,7 @@ section article {
 article img {
 	display: block;
 	height: auto;
-	max-width: 25%;
+	max-width: 90%;
 }
 section p {
   margin: 5px 0;
