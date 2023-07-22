@@ -43,6 +43,11 @@ section article {
 	section {
 	  grid-template-columns: auto auto;
 	}
+	article img {
+		display: block;
+		height: 25%;
+		width: 25%;
+	}
   }
 
   @media only screen and (max-width: 600px) {
