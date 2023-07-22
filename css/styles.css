@@ -39,7 +39,7 @@ section article {
 	width: 30vw;
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 	section {
 		display: grid;
 		grid-template-columns: auto auto;
